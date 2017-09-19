@@ -7,8 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-
+inputShown:boolean = false;
   methode() {
     this.title = 'autre chose';
+  }
+
+  displayInput() {
+this.inputShown = !this
   }
 }

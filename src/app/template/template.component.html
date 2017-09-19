@@ -1,0 +1,26 @@
+<h1 (click)="methode()">{{title}}</h1>
+
+<input type="text" [(ngModel)]="title" [hidden]="inputShown">
+
+<!-- en utilisant le [hidden] qui attend une variable de type boolean, faire en sorte que l'input soit affiché ou non au click sur un bouton en dessous -->
+<button (click)="toggleInput()">Toggle</button>
+<input type="checkbox" [(ngModel)]="inputShown">
+<!-- En utilisant le ngModel, faire 2 input de type number et indiqué en dessous le rédultat de l'addition de ces deux input-->
+<input type="number" [(ngModel)]="a"> +
+<input type="number" [(ngModel)]="b"> = {{a+b}}
+<p>
+    <label>Prénom:</label>
+    <input type="text" [(ngModel)]="personne.nom">
+</p>
+<p>
+    <label>Nom:</label>
+    <input type="text" [(ngModel)]="personne.prenom">
+</p>
+<p>
+    <label>Age:</label>
+    <input type="number" [(ngModel)]="personne.âge">
+</p>
+<input type="checkbox" [(ngModel)]="chienForm">
+<section>
+</section>
+<button (click)="afficher()">Afficher</button>
