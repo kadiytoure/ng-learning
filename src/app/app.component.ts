@@ -16,3 +16,6 @@ inputShown:boolean = false;
 this.inputShown = !this
   }
 }
+export class Todo {
+  
+}
