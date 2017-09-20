@@ -25,4 +25,4 @@ afficher() {
 this.inputShown = !this.inputShown
   }
 
- 
+}

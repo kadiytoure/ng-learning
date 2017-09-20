@@ -1,0 +1,7 @@
+<!-- On utilise le *ngFor pour boucler sur des listes d'éléments. On peut récupérer en plus certaines variables de la boucle type index/even/odd/first/last.
+Le *ngFor est sensé répeter l'élément html autant de fois qu'il y a d'item dans le tableau -->
+<ng-container *ngFor="let item of tableau; index as clef; even as pair">
+    <p *ngIf="pair">
+        {{clef}} {{item}}
+    </p>
+</ng-container>
