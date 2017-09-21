@@ -1,8 +1,11 @@
 <select [(ngModel)]="selectedPage">
     <option value="boucle">Boucle</option>
     <option value="template">Template</option>
+     <option value="todo">Todo List</option>
 </select>
 
 <app-boucle *ngIf="selectedPage === 'boucle'"></app-boucle>
 
 <app-template *ngIf="selectedPage === 'template'"></app-template>
+
+<app-template *ngIf="selectedPage === 'todo'"></app-template>

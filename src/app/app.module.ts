@@ -16,7 +16,11 @@ import { BoucleComponent } from './boucle/boucle.component';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    TodoService,
+    CompteurService,
+    TodoAjaxService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
