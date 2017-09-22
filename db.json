@@ -4,9 +4,11 @@
         "race": "test race",
         "id": 2
     }],
+    "dog": [],
     "todo": [
         { "id": 1, "message": "un" },
         { "id": 2, "message": "deux" },
         { "id": 3, "message": "trois" }
     ]
+
 }

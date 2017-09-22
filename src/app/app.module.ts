@@ -10,6 +10,7 @@ import { TodoService } from './shared/todo.service';
 import { TodoSecondComponent } from './todo-second/todo-second.component';
 import { CompteurService } from './shared/compteur/compteur.service';
 import { TodoAjaxService } from './shared/todo-ajax.service';
+import { ListeChienComponent } from './liste-chien/liste-chien.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { TodoAjaxService } from './shared/todo-ajax.service';
     TemplateComponent,
     BoucleComponent,
     TodoComponent,
-    TodoSecondComponent
+    TodoSecondComponent,
+    ListeChienComponent
   ],
   imports: [
     BrowserModule,
